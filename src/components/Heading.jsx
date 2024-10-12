@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Heading() {
+function Heading() {
   return (
-    <div>
-      <h1>Expense Tracker</h1>
-    </div>
+    <>
+      <h2>Expense Tracker</h2>
+    </>
   )
 }
+
+export default Heading

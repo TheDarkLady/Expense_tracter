@@ -1,13 +1,21 @@
 import { useState } from 'react'
 import Heading from './components/Heading'
-import Total_amount from './components/Total_amount'
+import Balance from './components/Balance'
+import IncomeExpense from './components/IncomeExpense'
+import TransactionsList from './components/transactionsList'
+import AddTransaction from './components/AddTransaction'
+import './App.css'
 function App() {
 
   return (
     <>
       <Heading />
-
-      <Total_amount />
+      <div className="comtainer">
+        <Balance />
+        <IncomeExpense />
+        <TransactionsList />
+        <AddTransaction />
+      </div>
     </>
   )
 }
